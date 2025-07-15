@@ -19,17 +19,17 @@ This project covers:
 
 ##  Execution pipeline
 
-python Riot_API_Data_Retrieving.py    # Optional: Fetch raw match data
-python clean.py                       # Clean and structure the match data
-python feature_extraction.py          # Generate player feature sequences
-python model.py
+- python Riot_API_Data_Retrieving.py    # Optional: Fetch raw match data
+- python clean.py                       # Clean and structure the match data
+- python feature_extraction.py          # Generate player feature sequences
+- python model.py
 
 ## Model Details
 
-Architecture: Bidirectional LSTM with batch normalization and dropout
-Input: Sequence of match level player features
-Output: Binary churn prediction
-Evaluation Metrics: Accuracy, Precision, Recall, F1-score
+- **Architecture**: Bidirectional LSTM with batch normalization and dropout
+- **Input**: Sequence of match level player features
+- *Output**: Binary churn prediction
+- **Evaluation Metrics**: Accuracy, Precision, Recall, F1-score
 
 
 
