@@ -1,5 +1,5 @@
 # Riot-Gamer-Churn-Prediction
-An end-to-end pipeline for predicting gamer churn using Riot match data. It retrieves data via the Riot API, extracts player-level features, and applies a Bidirectional LSTM model to detect churn—supporting retention analytics through temporal modeling and performance evaluation.
+An end to end pipeline for predicting gamer churn using Riot match data. It retrieves data via the Riot API, extracts player level features, and applies a Bidirectional LSTM model to detect churn supporting retention analytics through temporal modeling and performance evaluation.
 
 
 This project implements an end-to-end pipeline for **predicting player churn** based on match activity retrieved from the **Riot Games API**. The system is designed to help understand player behavior, identify at-risk users, and support retention strategies in competitive online gaming environments.
@@ -27,7 +27,7 @@ python model.py
 ## Model Details
 
 Architecture: Bidirectional LSTM with batch normalization and dropout
-Input: Sequence of match-level player features
+Input: Sequence of match level player features
 Output: Binary churn prediction
 Evaluation Metrics: Accuracy, Precision, Recall, F1-score
 
