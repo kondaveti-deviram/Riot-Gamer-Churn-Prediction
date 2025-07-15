@@ -28,7 +28,7 @@ This project covers:
 
 - **Architecture**: Bidirectional LSTM with batch normalization and dropout
 - **Input**: Sequence of match level player features
-- *Output**: Binary churn prediction
+- **Output**: Binary churn prediction
 - **Evaluation Metrics**: Accuracy, Precision, Recall, F1-score
 
 
