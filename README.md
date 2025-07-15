@@ -19,10 +19,10 @@ This project covers:
 
 ##  Execution pipeline
 
-- python Riot_API_Data_Retrieving.py    # Optional: Fetch raw match data
-- python clean.py                       # Clean and structure the match data
-- python feature_extraction.py          # Generate player feature sequences
-- python model.py
+- python Riot_API_Data_Retrieving.py    # Step 1: Download match data
+- python clean.py                       # Step 2: Format timestamps and save
+- python feature_extraction.py          # Step 3: Extract and label features
+- python model.py                       # Step 4: Train and evaluate the churn model
 
 ## Model Details
 
